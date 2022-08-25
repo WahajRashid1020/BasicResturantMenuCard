@@ -1,7 +1,10 @@
-import Resturant from "./component/Basics/Resturant";
+import Pr from "./component/Hooks/Pr";
 
 function App() {
-  return <Resturant />;
+  // return <Resturant />;
+  // return <ByuseState />;
+  // return <ByuseReducer />;
+  return <Pr />;
 }
 
 export default App;
