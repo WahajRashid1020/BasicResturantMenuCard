@@ -14,8 +14,11 @@ const CardMenu = ({ menuData }) => {
                       {c.id}
                     </span>
                     <span className="card-author subtle">{c.name}</span>
-                    <span className="card-description subtle">
-                      {c.description}
+                    <span
+                      className="card-description subtle"
+                      style={{ display: "flex" }}
+                    >
+                      {c.description.substring(0, 110) + "..."}
                     </span>
                     <div className="card-read">Read</div>
                   </div>
